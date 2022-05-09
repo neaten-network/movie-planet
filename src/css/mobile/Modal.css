@@ -1,0 +1,35 @@
+/* LARGE PHONES */
+@media (max-width: 450px) {
+  #auth-modal-container .auth-modal,
+  #warning-modal-container .warning-modal {
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+  }
+  #auth-modal-container .auth-modal-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+}
+/* SMALL PHONES */
+@media (max-width: 320px) {
+  #auth-modal-container .auth-modal .tips,
+  #warning-modal-container .warning-modal .tips {
+    font-size: 1.4rem;
+  }
+  #auth-modal-container .auth-modal .tips .fa-icon,
+  #warning-modal-container .warning-modal .tips .fa-icon {
+    font-size: 1.4rem;
+  }
+  #auth-modal-container .auth-modal .auth-modal-switch {
+    font-size: 1.4rem;
+  }
+  #warning-modal-container .button-group {
+    display: flex;
+    flex-direction: column;
+  }
+  #warning-modal-container .button-group .btn {
+    margin: 1rem 0;
+  }
+}

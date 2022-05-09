@@ -1,0 +1,70 @@
+/* TABLETS & SMALL LAPTOPS */
+@media (max-width: 1300px) {
+  #details-card {
+    height: 60vh;
+  }
+  #details-card .details-card-container {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 0 2rem;
+    padding: 2rem;
+  }
+  #details-card .details-card-item-image {
+    width: 240px;
+    height: 400px;
+  }
+  #details-card .details-card-item-title,
+  #details-card .details-card-item-name {
+    font-size: 2.6rem;
+  }
+  #details-card .details-card-item-subtitle {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+}
+/* TABLETS */
+@media (max-width: 1050px) {
+  #details-card {
+    height: 80vh;
+  }
+  #details-card .details-card-item-genres-date-duration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  #details-card .details-card-item-genres-date-duration > * {
+    margin-bottom: 1rem;
+  }
+  #details-card .details-card-dot-separator {
+    display: none;
+  }
+}
+/* SMALL TABLETS */
+@media (max-width: 650px) {
+  #details-card {
+    min-height: 100vh;
+    height: 100%;
+  }
+  #details-card .details-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 2rem;
+  }
+  #details-card .details-card-item-image {
+    width: 300px;
+  }
+  #details-card .details-card-item-description {
+    padding: 2rem 0;
+  }
+}
+/* SMALL PHONES */
+@media (max-width: 320px) {
+  #details-card .details-card-item-image {
+    width: 240px;
+    height: 360px;
+  }
+}

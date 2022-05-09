@@ -1,0 +1,27 @@
+.user-auth-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  transform: translateY(-100%);
+  transition: all 0.2s ease;
+}
+.user-auth-popup.show {
+  transform: translateY(0);
+}
+.user-auth-popup-type {
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+.user-auth-popup-type.success {
+  background: linear-gradient(to right, var(--main-blue), var(--main-green));
+}
+.user-auth-popup-type.error {
+  background: linear-gradient(to right, #e52d27, #b31217);
+}
+.user-auth-popup-type.error p {
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}

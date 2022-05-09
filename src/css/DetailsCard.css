@@ -1,0 +1,138 @@
+#details-card {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background: #0d253fc4;
+  font-size: 1.6rem;
+}
+#details-card .details-card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  background: var(--dark-blue);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#details-card .details-card-container {
+  margin: auto;
+  width: 1340px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 0 2rem;
+  padding: 2rem;
+}
+#details-card .details-card-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+#details-card .details-card-item-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2rem;
+  height: 100%;
+}
+#details-card .green-text {
+  font-weight: 600;
+}
+#details-card .details-card-item-image {
+  width: 380px;
+  height: 550px;
+}
+#details-card .details-card-item-title,
+#details-card .details-card-item-name {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+#details-card .details-card-item-subtitle {
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+#details-card .details-card-dot-separator {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 2rem;
+}
+#details-card .details-card-item-genres-date-duration {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#details-card .details-card-item-genres {
+  display: flex;
+  flex-wrap: wrap;
+}
+#details-card .details-card-item-genres > p {
+  margin-right: 0.5rem;
+}
+#details-card .details-card-item-genre {
+  letter-spacing: 1px;
+}
+#details-card .details-card-item-rating-bookmark {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#details-card .details-card-item-rating-bookmark > * {
+  margin-right: 2rem;
+}
+#details-card .item-rating {
+  font-size: 2.4rem;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+#details-card .details-card-item-bookmark-icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: var(--dark-blue);
+  border-radius: 50%;
+  border: 3px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+#details-card .details-card-item-bookmark-icon:hover {
+  color: orange;
+  border-color: orange;
+}
+#details-card .details-card-item-bookmark-icon.checked {
+  color: orange;
+  border-color: orange;
+}
+#details-card .fa-bookmark {
+  font-size: 2.2rem;
+  transition: unset;
+}
+#details-card .details-card-tag-line {
+  margin-bottom: 2rem;
+}
+#details-card .details-card-item-overview {
+  margin-bottom: 2rem;
+}
+#details-card .details-card-item-additional-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+#details-card .details-card-item-network {
+  margin-right: 1rem;
+  display: inline-block;
+}
+#details-card .btn-alt {
+  background: transparent;
+}

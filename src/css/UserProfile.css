@@ -1,0 +1,99 @@
+#user-profile-page {
+  position: relative;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+}
+#user-profile-page h2 {
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+#user-profile-page .user-profile {
+  position: relative;
+  height: 35vh;
+  background: url(../images/line-bg.svg) no-repeat center center/cover;
+  width: 100%;
+  color: #fff;
+}
+#user-profile-page .user-profile::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--dark-blue);
+  z-index: -1;
+}
+#user-profile-page .user-profile-container,
+#user-profile-page .user-profile-collections-container {
+  width: 1340px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#user-profile-page .user-profile-container {
+  height: 100%;
+  padding: 0 4rem;
+}
+#user-profile-page .user-profile-data {
+  display: flex;
+}
+#user-profile-page .user-profile-name-email > * {
+  margin-bottom: 1rem;
+}
+#user-profile-page .user-profile-email {
+  color: #ffffff99;
+  font-weight: 600;
+}
+#user-profile-page .button-group {
+  margin-top: 2rem;
+}
+#user-profile-page .user-profile-collections-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4rem 2rem;
+  height: 100%;
+}
+#user-profile-page .user-profile-collections {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+}
+#user-profile-page .user-profile-collection {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 2px solid var(--light-blue);
+  margin-bottom: 4rem;
+}
+#user-profile-page .user-profile-collection-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem 4rem;
+}
+#user-profile-page .user-profile-collection-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+#user-profile-page .user-profile-collection .tips {
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+#user-profile-page .user-profile-collection-title {
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+#user-profile-page .user-profile-collection-title:hover {
+  color: var(--main-green);
+}
+#user-profile-page .expand-icon {
+  transition: none;
+}

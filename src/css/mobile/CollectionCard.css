@@ -1,0 +1,45 @@
+/* SMALL TABLETS */
+@media (max-width: 550px) {
+  #collection-card .collection-card-title,
+  #collection-card .collection-card-name {
+    font-size: 1.6rem;
+    margin-right: 2rem;
+  }
+  #collection-card .collection-card-release-date,
+  #collection-card .collection-card-first-air-date {
+    font-size: 1.4rem;
+  }
+  #collection-card .collection-card-overview {
+    font-size: 1.4rem;
+    height: 50px;
+    overflow: hidden;
+  }
+}
+/* LARGE PHONES */
+@media (max-width: 450px) {
+  #collection-card .collection-card-image-container {
+    width: 120px;
+    height: 200px;
+  }
+  #collection-card .collection-card-overview {
+    height: 75px;
+    overflow: hidden;
+  }
+}
+/* MEDIUM PHONES */
+@media (max-width: 380px) {
+  #collection-card .collection-card-overview {
+    height: 50px;
+    overflow: hidden;
+  }
+}
+/* SMALL PHONES */
+@media (max-width: 280px) {
+  #collection-card .collection-card-image-container {
+    width: 100px;
+    height: 140px;
+  }
+  #collection-card .collection-card-overview {
+    display: none;
+  }
+}

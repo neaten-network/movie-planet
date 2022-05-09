@@ -1,0 +1,21 @@
+/* TABLETS & SMALL LAPTOPS */
+@media (max-width: 1050px) {
+  #review-form-container .review-form {
+    width: 100%;
+  }
+}
+/* SMALL TABLETS */
+@media (max-width: 550px) {
+  #review-form-container .review-form {
+    padding: 0;
+  }
+  #review-form-container label {
+    font-size: 2rem;
+  }
+  #review-form-container .review-form-user-reviews {
+    padding: 0;
+  }
+  #review-form-container .review-form-reviews-heading {
+    margin-bottom: 2rem;
+  }
+}

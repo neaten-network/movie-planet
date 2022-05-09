@@ -1,0 +1,20 @@
+/* TABLETS & SMALL LAPTOPS */
+@media (max-width: 1050px) {
+  #footer .footer-container {
+    width: 100%;
+  }
+  #footer img {
+    height: 30px;
+    object-fit: cover;
+  }
+  #footer .tmdb-logo {
+    height: 20px;
+    margin: 0 1rem;
+  }
+}
+/* SMALL PHONES */
+@media (max-width: 320px) {
+  #footer .footer-credits {
+    font-size: 1.4rem;
+  }
+}

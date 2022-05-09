@@ -1,0 +1,65 @@
+#collection-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem #eee;
+  transition: all 0.2s ease;
+}
+#collection-card:hover {
+  transform: scale(1.05);
+}
+#collection-card .delete-item-icon {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-100%, 70%);
+  z-index: 5;
+  cursor: pointer;
+}
+#collection-card:hover .delete-item-icon {
+  display: block;
+}
+#collection-card .delete-item-icon:hover {
+  color: var(--main-green);
+}
+#collection-card .collection-card-image-container {
+  width: 120px;
+  height: 170px;
+}
+#collection-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+#collection-card .collection-card-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  width: 100%;
+}
+#collection-card .collection-card-title,
+#collection-card .collection-card-name {
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+#collection-card .collection-card-title:hover,
+#collection-card .collection-card-name:hover {
+  color: var(--main-green);
+}
+#collection-card .collection-card-release-date,
+#collection-card .collection-card-first-air-date {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}

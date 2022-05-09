@@ -1,0 +1,38 @@
+/* TABLETS & SMALL LAPTOPS */
+@media (max-width: 1050px) {
+  #user-review-container {
+    width: 100%;
+  }
+}
+/* SMALL TABLETS */
+@media (max-width: 550px) {
+  #user-review-container {
+    padding: 2rem;
+  }
+  #user-review-container .user-review-author {
+    font-size: 1.8rem;
+  }
+}
+/* LARGE PHONES */
+@media (max-width: 450px) {
+  #user-review-container .user-review-author-options {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  #user-review-container .user-review-author-options > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #user-review-container label {
+    font-size: 1.6rem;
+  }
+}
+/* SMALL PHONES */
+@media (max-width: 320px) {
+  #user-review-container .user-review-author {
+    font-size: 1.6rem;
+  }
+  #user-review-container .user-review-date {
+    font-size: 1.4rem;
+  }
+}

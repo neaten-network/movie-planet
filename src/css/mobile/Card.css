@@ -1,0 +1,100 @@
+/* TABLETS & SMALL LAPTOPS */
+@media (max-width: 1050px) {
+  #item-card {
+    height: 440px;
+    width: 180px;
+    min-width: 180px;
+    margin: 2rem 1rem;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 2.4fr 1fr;
+  }
+  #item-card .item-card-poster {
+    height: 280px;
+    width: 180px;
+  }
+  #item-card .item-card-info {
+    height: 160px;
+    width: 180px;
+  }
+  #item-card .card-item-movie-title,
+  #item-card .card-item-tv-name,
+  #item-card .card-item-cast-name {
+    font-size: 1.6rem;
+  }
+  #item-card .card-item-movie-release-date,
+  #item-card .card-item-tv-first-air-date,
+  #item-card .card-item-cast-character {
+    font-size: 1.4rem;
+  }
+}
+/* TABLETS */
+@media (max-width: 768px) {
+  #item-card {
+    height: 420px;
+    width: 150px;
+    min-width: 150px;
+  }
+  #item-card .item-card-poster {
+    height: 260px;
+    width: 150px;
+  }
+  #item-card .item-card-info {
+    width: 150px;
+  }
+}
+/* LARGE PHONES */
+@media (max-width: 520px) {
+  #item-card {
+    height: 400px;
+  }
+  #item-card .item-card-poster {
+    height: 240px;
+  }
+}
+/* SMALL PHONES */
+@media (max-width: 320px) {
+  #item-card {
+    height: 360px;
+    width: 120px;
+    min-width: 120px;
+  }
+  #item-card .item-card-poster {
+    height: 200px;
+    width: 120px;
+  }
+  #item-card .item-card-info {
+    padding: 2rem 1rem;
+    width: 120px;
+  }
+  #item-card .item-rating {
+    width: 3.5rem;
+    height: 3.5rem;
+    transform: translateY(-38px);
+  }
+  #item-card .card-item-movie-title,
+  #item-card .card-item-tv-name,
+  #item-card .card-item-cast-name {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 280px) {
+  #item-card {
+    height: 340px;
+    width: 100px;
+    min-width: 100px;
+  }
+  #item-card .item-card-poster {
+    height: 180px;
+    width: 100px;
+  }
+  #item-card .item-card-info {
+    padding: 2rem 1rem;
+    width: 100px;
+  }
+  #item-card .card-item-movie-release-date,
+  #item-card .card-item-tv-first-air-date,
+  #item-card .card-item-cast-character {
+    font-size: 1.2rem;
+  }
+}

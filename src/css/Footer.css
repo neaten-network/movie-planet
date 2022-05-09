@@ -1,0 +1,40 @@
+#footer {
+  width: 100vw;
+  background: var(--dark-blue);
+  color: #ffffff99;
+  height: 100%;
+  text-align: center;
+}
+#footer img {
+  height: 50px;
+  object-fit: cover;
+}
+#footer .logo {
+  margin-right: 0;
+}
+#footer .footer-container {
+  margin: auto;
+  width: 1340px;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+#footer .tmdb-logo {
+  height: 30px;
+  margin: 0 1rem;
+}
+#footer .portfolio-link {
+  color: var(--main-green);
+  cursor: pointer;
+}
+#footer .portfolio-link:hover {
+  text-decoration: underline;
+}

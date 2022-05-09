@@ -1,0 +1,84 @@
+#item-card {
+  height: 480px;
+  width: 220px;
+  min-width: 220px;
+  margin: 2rem 1rem;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 2.4fr 1fr;
+}
+#item-card:hover img {
+  transform: scale(1.1);
+}
+#item-card .item-card-poster {
+  position: relative;
+  width: 220px;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem #ddd;
+  background: url(../images/no-image.jpg) no-repeat center center/cover;
+  cursor: pointer;
+}
+#item-card .item-card-bookmark-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: var(--light-blue);
+  cursor: pointer;
+  z-index: 5;
+}
+#item-card .item-card-bookmark-icon.checked {
+  color: orange;
+}
+#item-card .item-card-bookmark-icon:hover {
+  color: orange;
+}
+#item-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease;
+}
+#item-card .item-card-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2rem;
+  width: 220px;
+  width: 100%;
+  height: 160px;
+  color: var(--dark-blue);
+}
+#item-card .card-item-movie-title,
+#item-card .card-item-tv-name,
+#item-card .card-item-cast-name {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 1rem 0 0;
+}
+#item-card .card-item-cast-name {
+  cursor: default;
+}
+#item-card .card-item-movie-title:hover,
+#item-card .card-item-tv-name:hover {
+  color: var(--main-green);
+}
+#item-card .card-item-movie-release-date,
+#item-card .card-item-tv-first-air-date,
+#item-card .card-item-cast-character {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+#item-card .item-rating {
+  position: absolute;
+  transform: translateY(-42px);
+}

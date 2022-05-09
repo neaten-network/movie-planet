@@ -1,0 +1,94 @@
+/* Auth & Warning Modals */
+#auth-modal-container,
+#warning-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.459);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+#auth-modal-container .auth-modal,
+#warning-modal-container .warning-modal {
+  position: relative;
+  background: #fff;
+  padding: 2rem 4rem;
+  border-radius: 2rem;
+  width: 500px;
+  text-align: center;
+}
+#auth-modal-container .auth-modal-form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+#auth-modal-container .close-modal-icon,
+#warning-modal-container .close-modal-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-140%, 80%);
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+#auth-modal-container .close-modal-icon:hover,
+#warning-modal-container .close-modal-icon:hover {
+  color: orange;
+}
+#auth-modal-container h2 {
+  margin: 2rem 0;
+}
+#auth-modal-container .auth-modal-input-tips-group {
+  margin-bottom: 1rem;
+  text-align: start;
+}
+#auth-modal-container input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--dark-blue);
+  border-radius: 2rem;
+  margin: 1rem 0;
+  font-size: 1.6rem;
+}
+#auth-modal-container input:focus {
+  border-color: var(--main-green);
+}
+#auth-modal-container span {
+  color: var(--main-green);
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#auth-modal-container .auth-modal-buttons-container {
+  width: 100%;
+}
+#auth-modal-container .btn {
+  margin: 2rem 0;
+  width: 100%;
+}
+#auth-modal-container .tips {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  margin-left: 1.5rem;
+}
+#auth-modal-container .tips.checked {
+  color: var(--main-green);
+}
+#warning-modal-container .warning-modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#warning-modal-container h2 {
+  margin: 2rem 0;
+}
+#warning-modal-container p {
+  text-align: start;
+  margin-bottom: 1rem;
+}

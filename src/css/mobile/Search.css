@@ -1,0 +1,67 @@
+/* TABLETS & SMALL LAPTOPS */
+@media (max-width: 1300px) {
+  #search-results-page .search-results-page-container {
+    width: 100%;
+  }
+  #search-results-page .search-results-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #search-results-page .button-group {
+    grid-column: 1 / span 4;
+  }
+}
+/* SMALL TABLETS */
+@media (max-width: 850px) {
+  #search-results-page .search-results-page-container {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  #search-results-page header {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  #search-results-page .search-results-content {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 0 0;
+  }
+  #search-results-page .button-group {
+    grid-column: 1 / span 3;
+  }
+}
+/* LARGE PHONES */
+@media (max-width: 600px) {
+  #search-results-page #loader {
+    margin-top: 150px;
+  }
+}
+/* LARGE PHONES */
+@media (max-width: 520px) {
+  #search-results-page .search-results-keyword {
+    font-size: 2rem;
+  }
+  #search-results-page .search-results-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #search-results-page .button-group {
+    grid-column: 1 / span 2;
+  }
+}
+/* MEDIUM PHONES */
+@media (max-width: 380px) {
+  #search-results-page #loader {
+    margin-top: 120px;
+  }
+}
+/* SMALL PHONES */
+@media (max-width: 380px) {
+  #search-results-page #loader {
+    margin-top: 100px;
+  }
+}
+/* PHONES WITH HEIGHT RESOLUTION MORE THAN 800PX */
+/* @media (min-height: 800px) {
+  #search-results-page #loader {
+    margin-top: 170px;
+  }
+} */

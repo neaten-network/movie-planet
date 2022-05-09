@@ -1,0 +1,53 @@
+#navbar {
+  background: var(--dark-blue);
+  height: 60px;
+  width: 100vw;
+}
+#navbar .navbar-container {
+  width: 1340px;
+  background: transparent;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  color: #fff;
+}
+#navbar .navbar-left-block {
+  display: flex;
+  align-items: center;
+}
+#navbar .navbar-right-block {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+#navbar .navbar-link {
+  color: var(--main-green);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+#navbar .navbar-link:hover {
+  color: #fff;
+}
+#navbar .active-route {
+  color: #fff;
+}
+#navbar .navbar-user {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar .navbar-account-link {
+  margin-right: 2rem;
+}
+/* SLIDER NAVBAR */
+#navbar .navbar-slider {
+  display: none;
+  pointer-events: none;
+}

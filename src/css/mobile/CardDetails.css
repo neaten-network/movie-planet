@@ -1,0 +1,46 @@
+/* TABLETS & SMALL LAPTOPS */
+@media (max-width: 1300px) {
+  #card-details-page .card-details-page-container {
+    width: 100%;
+  }
+  #card-details-page .card-details-cast {
+    height: 440px;
+  }
+  #card-details-page #item-card {
+    height: 400px;
+  }
+  #card-details-page #item-card {
+    min-height: 240px;
+    height: 240px;
+    min-width: 140px;
+    width: 140px;
+  }
+  #card-details-page #item-card .item-card-poster {
+    min-height: 240px;
+    height: 240px;
+    width: 140px;
+  }
+  #card-details-page #item-card .item-card-info {
+    width: 140px;
+  }
+}
+/* MEDIUM PHONES */
+@media (max-width: 360px) {
+  #card-details-page .card-details-cast {
+    height: 400px;
+  }
+  #card-details-page #item-card {
+    min-height: 240px;
+    height: 240px;
+    min-width: 120px;
+    width: 120px;
+  }
+  #card-details-page #item-card .item-card-poster {
+    min-height: 200px;
+    height: 200px;
+    width: 120px;
+  }
+  #card-details-page #item-card .item-card-info {
+    width: 120px;
+  }
+}

@@ -1,0 +1,69 @@
+/* TABLETS & SMALL LAPTOPS */
+@media (max-width: 1300px) {
+  #user-profile-page .user-profile-container,
+  #user-profile-page .user-profile-collections-container {
+    width: 100%;
+  }
+  #user-profile-page .user-profile-collection-items {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+}
+/* SMALL TABLETS */
+@media (max-width: 550px) {
+  #user-profile-page .user-profile-container {
+    padding: 0 2rem;
+  }
+  #user-profile-page .scroll-btn {
+    display: none;
+  }
+}
+/* LARGE PHONES */
+@media (max-width: 450px) {
+  #user-profile-page .user-profile-collections-container .section-title {
+    font-size: 2.6rem;
+  }
+  #user-profile-page .user-profile-collection-info {
+    margin: 0 0 2rem;
+  }
+}
+/* MEDIUM PHONES */
+@media (max-width: 380px) {
+  #user-profile-page .user-profile {
+    height: 45vh;
+  }
+  #user-profile-page .user-profile-username {
+    font-size: 2rem;
+  }
+  #user-profile-page .user-profile-email {
+    font-size: 1.4rem;
+  }
+  #user-profile-page .user-profile-collections-container > h3 {
+    font-size: 1.6rem;
+  }
+  #user-profile-page .user-profile-collection {
+    padding: 0;
+  }
+  #user-profile-page .user-profile .button-group {
+    display: flex;
+    flex-direction: column;
+  }
+  #user-profile-page .user-profile .button-group .btn {
+    margin: 1rem 0;
+  }
+}
+/* SMALL PHONES */
+@media (max-width: 280px) {
+  #user-profile-page .user-profile-collections-container {
+    padding: 2rem 1rem;
+  }
+  #user-profile-page .user-profile .button-group {
+    width: 150px;
+  }
+}
+/* SCREENS WITH HEIGHT MORE THAN 800PX */
+/* @media (min-height: 800px) {
+  #user-profile-page .user-profile {
+    height: 35vh;
+  }
+} */
